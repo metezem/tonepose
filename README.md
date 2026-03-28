@@ -3,12 +3,12 @@
 Pitch-shift audio from **Spotify, Apple Music, browsers, and more**, from the menu bar. **No BlackHole or virtual cables.** Free and open-source.
 
 <p align="center">
-  <a href="https://github.com/metezem/tonepose/releases/download/v1.0.0/tonepose-1.0.0.dmg"><img src="assets/download-badge.svg" alt="Download tonepose for macOS" height="48"></a>
+  <a href="https://github.com/metezem/tonepose/releases/latest"><img src="assets/download-badge.svg" alt="Download tonepose for macOS" height="48"></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/metezem/tonepose/releases/latest"><img src="https://img.shields.io/github/v/release/metezem/tonepose?style=for-the-badge&labelColor=1c1c1e&color=0A84FF&logo=github&logoColor=white" alt="Latest release"></a>
-  <a href="https://github.com/metezem/tonepose/releases"><img src="https://img.shields.io/github/downloads/metezem/tonepose/total?style=for-the-badge&labelColor=1c1c1e&color=3a3a3c" alt="Downloads"></a>
+  <a href="https://github.com/metezem/tonepose/releases"><img src="https://img.shields.io/badge/downloads-GitHub-3a3a3c?style=for-the-badge&labelColor=1c1c1e&logo=github&logoColor=white" alt="Download releases on GitHub"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-3a3a3c?style=for-the-badge&labelColor=1c1c1e" alt="License: MIT"></a>
   <a href="https://www.apple.com/macos/"><img src="https://img.shields.io/badge/macOS-14.4%2B-3a3a3c?style=for-the-badge&labelColor=1c1c1e&logo=apple&logoColor=white" alt="macOS 14.4+"></a>
 </p>
@@ -45,7 +45,7 @@ The panel: pick the app to transpose, adjust semitones, manage apps, and control
 
 ## Features
 
-- **Per-app transpose** — Saved per unique app.
+- **Per-app transpose** — Saved per bundle ID.
 - **Quick list** — Common music apps and browsers when they’re running; pin others from the apps window.
 - **Menu bar** — Popover + optional **tonepose — apps** window; **Quit** in the popover.
 - **Pipeline** — Stop / start when you need a clean reconnect.
