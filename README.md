@@ -8,6 +8,7 @@ Pitch-shift audio from **Spotify, Apple Music, browsers, and more**, from the me
 
 <p align="center">
   <a href="https://github.com/metezem/tonepose/releases/latest"><img src="https://img.shields.io/github/v/release/metezem/tonepose?style=for-the-badge&labelColor=1c1c1e&color=0A84FF&logo=github&logoColor=white" alt="Latest release"></a>
+  <a href="https://github.com/metezem/tonepose/releases"><img src="https://img.shields.io/github/downloads/metezem/tonepose/total?style=for-the-badge&labelColor=1c1c1e&color=3a3a3c" alt="Downloads"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-3a3a3c?style=for-the-badge&labelColor=1c1c1e" alt="License: MIT"></a>
   <a href="https://www.apple.com/macos/"><img src="https://img.shields.io/badge/macOS-14.4%2B-3a3a3c?style=for-the-badge&labelColor=1c1c1e&logo=apple&logoColor=white" alt="macOS 14.4+"></a>
 </p>
