@@ -3,7 +3,7 @@
 Pitch-shift audio from **Spotify, Apple Music, browsers, and more**, from the menu bar. **No BlackHole or virtual cables.** Free and open-source.
 
 <p align="center">
-  <a href="https://github.com/metezem/tonepose/releases/latest"><img src="assets/download-badge.svg" alt="Download tonepose for macOS" height="48"></a>
+  <a href="https://github.com/metezem/tonepose/releases/download/v1.0.0/tonepose-1.0.0.dmg"><img src="assets/download-badge.svg" alt="Download tonepose for macOS" height="48"></a>
 </p>
 
 <p align="center">
