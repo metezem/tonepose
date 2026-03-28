@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000010000000000000001 /* ToneposeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000001 /* ToneposeApp.swift */; };
+		A10000010000000000000002 /* TransposePopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000002 /* TransposePopover.swift */; };
+		A10000010000000000000003 /* TransposeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000003 /* TransposeViewModel.swift */; };
+		A10000010000000000000004 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000004 /* UserSettings.swift */; };
+		A10000010000000000000005 /* AudioCapturePermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000005 /* AudioCapturePermission.swift */; };
+		A10000010000000000000006 /* CoreAudioHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000006 /* CoreAudioHelpers.swift */; };
+		A10000010000000000000007 /* TapResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000007 /* TapResources.swift */; };
+		A10000010000000000000008 /* AudioTapTargetResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000008 /* AudioTapTargetResolver.swift */; };
+		A10000010000000000000009 /* NewTimePitchProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000009 /* NewTimePitchProcessor.swift */; };
+		A1000001000000000000000A /* TransposeTapEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000000A /* TransposeTapEngine.swift */; };
+		A1000001000000000000000B /* TransposeQuickList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000000B /* TransposeQuickList.swift */; };
+		A1000001000000000000000C /* TransposeAppsWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000000C /* TransposeAppsWindow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20000010000000000000001 /* ToneposeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneposeApp.swift; sourceTree = "<group>"; };
+		A20000010000000000000002 /* TransposePopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransposePopover.swift; sourceTree = "<group>"; };
+		A20000010000000000000003 /* TransposeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransposeViewModel.swift; sourceTree = "<group>"; };
+		A20000010000000000000004 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		A20000010000000000000005 /* AudioCapturePermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCapturePermission.swift; sourceTree = "<group>"; };
+		A20000010000000000000006 /* CoreAudioHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAudioHelpers.swift; sourceTree = "<group>"; };
+		A20000010000000000000007 /* TapResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapResources.swift; sourceTree = "<group>"; };
+		A20000010000000000000008 /* AudioTapTargetResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTapTargetResolver.swift; sourceTree = "<group>"; };
+		A20000010000000000000009 /* NewTimePitchProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTimePitchProcessor.swift; sourceTree = "<group>"; };
+		A2000001000000000000000A /* TransposeTapEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransposeTapEngine.swift; sourceTree = "<group>"; };
+		A2000001000000000000000B /* TransposeQuickList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransposeQuickList.swift; sourceTree = "<group>"; };
+		A2000001000000000000000C /* TransposeAppsWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransposeAppsWindow.swift; sourceTree = "<group>"; };
+		A30000010000000000000001 /* tonepose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tonepose.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A40000010000000000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A40000010000000000000002 /* Tonepose.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tonepose.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A50000010000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A60000010000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A60000010000000000000002 /* tonepose */,
+				A60000010000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A60000010000000000000002 /* tonepose */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000001 /* ToneposeApp.swift */,
+				A20000010000000000000002 /* TransposePopover.swift */,
+				A20000010000000000000003 /* TransposeViewModel.swift */,
+				A20000010000000000000004 /* UserSettings.swift */,
+				A20000010000000000000005 /* AudioCapturePermission.swift */,
+				A20000010000000000000006 /* CoreAudioHelpers.swift */,
+				A20000010000000000000007 /* TapResources.swift */,
+				A20000010000000000000008 /* AudioTapTargetResolver.swift */,
+				A20000010000000000000009 /* NewTimePitchProcessor.swift */,
+				A2000001000000000000000A /* TransposeTapEngine.swift */,
+				A2000001000000000000000B /* TransposeQuickList.swift */,
+				A2000001000000000000000C /* TransposeAppsWindow.swift */,
+				A40000010000000000000001 /* Info.plist */,
+				A40000010000000000000002 /* Tonepose.entitlements */,
+			);
+			path = tonepose;
+			sourceTree = "<group>";
+		};
+		A60000010000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A30000010000000000000001 /* tonepose.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A70000010000000000000001 /* tonepose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80000010000000000000003 /* Build configuration list for PBXNativeTarget "tonepose" */;
+			buildPhases = (
+				A90000010000000000000001 /* Sources */,
+				A50000010000000000000001 /* Frameworks */,
+				AA0000010000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tonepose;
+			productName = tonepose;
+			productReference = A30000010000000000000001 /* tonepose.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB0000010000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = A80000010000000000000001 /* Build configuration list for PBXProject "tonepose" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A60000010000000000000001;
+			productRefGroup = A60000010000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A70000010000000000000001 /* tonepose */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA0000010000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A90000010000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000010000000000000001 /* ToneposeApp.swift in Sources */,
+				A10000010000000000000002 /* TransposePopover.swift in Sources */,
+				A10000010000000000000003 /* TransposeViewModel.swift in Sources */,
+				A10000010000000000000004 /* UserSettings.swift in Sources */,
+				A10000010000000000000005 /* AudioCapturePermission.swift in Sources */,
+				A10000010000000000000006 /* CoreAudioHelpers.swift in Sources */,
+				A10000010000000000000007 /* TapResources.swift in Sources */,
+				A10000010000000000000008 /* AudioTapTargetResolver.swift in Sources */,
+				A10000010000000000000009 /* NewTimePitchProcessor.swift in Sources */,
+				A1000001000000000000000A /* TransposeTapEngine.swift in Sources */,
+				A1000001000000000000000B /* TransposeQuickList.swift in Sources */,
+				A1000001000000000000000C /* TransposeAppsWindow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AC0000010000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC0000010000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AC0000010000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = tonepose/Tonepose.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P8AL435UK5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = tonepose/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.tonepose.app;
+				PRODUCT_NAME = tonepose;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AC0000010000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = tonepose/Tonepose.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P8AL435UK5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = tonepose/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.tonepose.app;
+				PRODUCT_NAME = tonepose;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80000010000000000000001 /* Build configuration list for PBXProject "tonepose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0000010000000000000001 /* Debug */,
+				AC0000010000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80000010000000000000003 /* Build configuration list for PBXNativeTarget "tonepose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0000010000000000000003 /* Debug */,
+				AC0000010000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB0000010000000000000001 /* Project object */;
+}
